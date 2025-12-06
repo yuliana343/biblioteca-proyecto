@@ -1,4 +1,7 @@
 @startuml
+' CAMBIO EN RAMA MAIN PARA CREAR CONFLICTO
+' Esta línea se agregó desde la rama main
+
 skinparam classAttributeIconSize 0
 
 class Socio {
