@@ -1,6 +1,6 @@
 @startuml
 ' CAMBIO EN RAMA MAIN PARA CREAR CONFLICTO
-' Esta línea se agregó desde la rama main
+' CAMBIO DESDE RAMA HISTORIA-USUARIO PARA CREAR CONFLICTO
 
 skinparam classAttributeIconSize 0
 
@@ -36,16 +36,5 @@ class Prestamo {
   + verificarVencimiento()
 }
 
-' NUEVA NOTA GRANDE PARA QUE SE VEA EL CAMBIO
-note top of Prestamo
-ACTUALIZACIÓN IMPORTANTE – SPRINT
-El préstamo ahora integra validación adicional:
-1. Verificar suspensión del socio
-2. Registrar motivo de vencimiento
-3. Validación aplicada en fase de merge
-end note
-
-Socio "1" --> "0..*" Prestamo : realiza
-Libro "1" --> "0..*" Prestamo : incluye
-
 @enduml
+
